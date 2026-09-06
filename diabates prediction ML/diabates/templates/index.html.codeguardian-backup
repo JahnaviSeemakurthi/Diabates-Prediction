@@ -12,7 +12,7 @@
         <ul>
             <li><a href="#">HOME</a></li>
         </ul>
-        <h5 style="text-align: center; color: brown; font-weight: 600;">{{pred}}</h5>
+        <h5 style="text-align: center; color: brown; font-weight: 600;">{{ pred|e }}</h5>
     </div>
     <h5 class="predict">Predict the probability of having Diabetes
         <br>
