@@ -44,4 +44,4 @@ with open("Diabetes.pkl", "wb") as file:
     pickle.dump(model, file)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
